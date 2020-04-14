@@ -38,12 +38,6 @@
 - WebAPI for courier service for donation transporation
 
 
-## Team members
-- Gizem Ocak 
-- ChenChen Kuang
-- Tammy Ji
-
-
 ## Getting Started
 
 1. Front-End

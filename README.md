@@ -16,7 +16,7 @@
 - Login as grocery store owner / register if first time using the app
 - Post Food near or past its best-before date with prodcut photos, name, qty on daily basis
 - Once I got SMS and order from app, I will be able to contact with charity organization to arrange food delivery.
-![](https://github.com/gizemocak/final-project/blob/master/client/public/images/donation.gif)
+![](https://github.com/kashyap1808/MERN-PocketMeal/blob/master/donation.gif)
 
 #### As charity orgnization, I want to help my community and collect information from grocery store:
 - Login as charity organization/ register if first time using the app
@@ -24,7 +24,7 @@
 - when I click one store, I will have the detailed list of donation food
 - I could select and add to my cart, then place order with no money traction though
 - The App will send SMS to grocer once order being placed
-![](https://github.com/gizemocak/final-project/blob/master/client/public/images/charity.gif)
+![](https://github.com/kashyap1808/MERN-PocketMeal/blob/master/charity.gif)
 
 
 ## Stack Choice

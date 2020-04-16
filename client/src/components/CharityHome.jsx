@@ -8,6 +8,9 @@ import { useStoreActions, useStoreState } from "easy-peasy";
 import styled, { keyframes } from "styled-components";
 import { fadeIn } from "react-animations";
 const FadeInAnimation = keyframes`${fadeIn}`;
+const FadeInDiv = styled.div`
+  animation: 3s ${FadeInAnimation};
+`;
 
 export default function CharityHome(props) {
   const [geoLoc, setGeoLoc] = useState({ lat: 43.6478476, lng: -79.3912643 });
@@ -24,6 +27,7 @@ export default function CharityHome(props) {
 
     getGeoLocation();
     fetchStores();
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {

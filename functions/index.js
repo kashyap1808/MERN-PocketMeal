@@ -8,8 +8,8 @@ const cors = require("cors")({ origin: true });
 const Busboy = require("busboy");
 const fs = require("fs");
 
-const projectId = 'chareatee-a86d8';
-const keyFilename = 'chareatee-a86d8-firebase-adminsdk-84fm7-46ca06f9d1.json';
+const projectId = "loyal-vent-273319";
+const keyFilename = "Pocket-Meal-01618f23e048.json";
 
 const {Storage} = require('@google-cloud/storage');
 
@@ -72,7 +72,7 @@ exports.uploadFile = functions.https.onRequest((req, res) => {
     });
 
     busboy.on("finish", () => {
-      const bucket = gcs.bucket("chareatee-a86d8.appspot.com");
+      const bucket = gcs.bucket("loyal-vent-273319.appspot.com");
       bucket
         .upload(uploadData.file, {
           uploadType: "media",

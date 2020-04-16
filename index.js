@@ -10,7 +10,6 @@ require('dotenv').config()
 var bodyParser = require('body-parser')
 const twilio = require('twilio');
 
-
 const app = express();
 const knexConfig = require("./knexfile");
 const knex = require("knex")(knexConfig[ENV]);
@@ -19,11 +18,6 @@ const client = new twilio(
   process.env.TWILIO_ACCOUT_SID,
   process.env.TWILIO_AUTH_TOKEN
 );
-
-// const client = require('twilio')(
-//   process.env.TWILIO_ACCOUT_SID,
-//   process.env.TWILIO_AUTH_TOKEN
-// );
 
 require('dotenv').config()
 // Serve the static files from the React app
@@ -48,9 +42,9 @@ var options = {
   provider: 'mapquest',
   // Optional depending on the providers
   httpAdapter: 'https', // Default
-  apiKey: 'iDLEXonskFKEUB6TBroSALKR01fduQrw', // for Mapquest, OpenCage, Google Premier
+  apiKey: 'TzzdAHGn8plPpRJ4iOf9ppxrl9tFB2yE', // for Mapquest, OpenCage, Google Premier
   formatter: null, // 'gpx', 'string', ...
-  'User-Agent': 'chareatee app'
+  'User-Agent': 'pocketmeal app'
 };
 console.log("api", process.env.GOOGLEMAPS_APIKEY)
 var geocoder = NodeGeocoder(options);
@@ -61,7 +55,7 @@ app.get('/api/getList', (req, res) => {
   res.json(list);
 });
 
-///////////GEt google api key////////////
+///////////Get google api key////////////
 app.get('/api/getApiKey', (req, res) => {
   const key = process.env.GOOGLEMAPS_APIKEY
   res.send({
@@ -122,7 +116,7 @@ app.post("/api/register", (req, res) => {
     res.status(400).send("Email or password is empty");
   }
   knex.select('*').from('users').where('email', email).first().then((user) => {
-    // console.log('register user', user)
+    // console.log('regisger user', user)
     if (user && (user.username || user.email)) {
       res.status(403).send('User already exists')
       return false
@@ -216,7 +210,7 @@ app.post("/api/products", (req, res) => {
   knex.batchInsert('products', rows, chunkSize)
     .then(product => {
       // console.log('product', product)
-      res.status(200.).send('OK')
+      res.status(200).send('OK')
     })
 });
 

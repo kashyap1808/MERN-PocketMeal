@@ -1,6 +1,5 @@
 import {
-  action,
-  thunk
+  action
 } from "easy-peasy";
 
 const order = {

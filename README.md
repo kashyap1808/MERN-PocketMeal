@@ -1,4 +1,4 @@
-# Chareatee
+# Pocket Meal Application
 
 ## Project description:
 - The application is to create opportunity for grocery stores to reduce waste as more than half of all food produced in Canada is lost or wasted, report says, this also create hugh enviromental impacts.
@@ -10,7 +10,7 @@
 - Gorcery stores
 - Charity Organizations (food banks)
 
-## User Stories
+### Users:
 
 #### As grocery owner, I follow regulation strictly to provide fresh food to my customers, but there are still a lot of perishable food wasted everyday. Once food hits its sell-by date, they became unsaleables, I will be able to use the app: 
 - Login as grocery store owner / register if first time using the app
@@ -38,21 +38,20 @@
 - WebAPI for courier service for donation transporation
 
 
+## Team members
+- Kashyap Gauswami      -   101111621
+- Karan Patel           -   101145861
+- Shiv Guard            -   101148273
+- Nishtha Ramani        -   101156238
+- Vivek Vaidya          -   101153320
+
+
 ## Getting Started
 
 1. Front-End
-- Start with -> finalproject/client npm start
+- Start with -> client npm start
 - React runs on localhost:3000
 
 2. Back-End
 - Express server runs on localhost:8080
-- start with -> finalproject npm start
-
-3. If you would like to receive an SMS confirmation from Twilio, you will need to create a free account
-- Once you have obtained your Account SID and Authentication Token, create a .env file in the main folder
-- In that file, enter the following:
-- TWILIO_ACCOUNT_SID=your_account_sid_here
-- TWILIO_AUTH_TOKEN=your_auth_token_here
-
-4. Enjoy!
-
+- start with -> nodemon /index.js

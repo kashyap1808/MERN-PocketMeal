@@ -5,13 +5,13 @@ import '@firebase/auth';
 
 // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyCpkZmZ0xcTSsYmHMDmkf48GLJXHLVkWJw",
-    authDomain: "chareatee-a86d8.firebaseapp.com",
-    databaseURL: "https://chareatee-a86d8.firebaseio.com",
-    projectId: "chareatee-a86d8",
-    storageBucket: "chareatee-a86d8.appspot.com",
-    messagingSenderId: "373345118484",
-    appId: "1:373345118484:web:ed90572ac76493c5"
+    apiKey: "AIzaSyCS4PCalHIPXKtXsIgbkUPrMO6J0xc7oVY",
+    authDomain: "loyal-vent-273319.firebaseapp.com",
+    databaseURL: "https://loyal-vent-273319.firebaseio.com",
+    projectId: "loyal-vent-273319",
+    storageBucket: "loyal-vent-273319.appspot.com",
+    messagingSenderId: "793711646560",
+    appId: "1:793711646560:web:bec2c7f781ba49dcb4f005",
   };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

@@ -5,9 +5,9 @@ import NavBar from "./NavBar";
 import { useStoreActions, useStoreState } from "easy-peasy";
 import "../style/Login.scss";
 import { Link } from "react-router-dom";
-
 import styled, { keyframes } from "styled-components";
 import { fadeInRight } from "react-animations";
+
 const FadeInRightAnimation = keyframes`${fadeInRight}`;
 const FadeInRightYDiv = styled.div`
   animation: 1s ${FadeInRightAnimation};

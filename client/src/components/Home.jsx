@@ -39,7 +39,6 @@ const Slogan1 = () => (
     <img
       src={require("../docs/1.png")}
       style={{ width: "120px", height: "120px" }}
-      alt = ""
     />
   </Box>
 );

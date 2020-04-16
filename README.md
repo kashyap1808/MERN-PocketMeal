@@ -1,28 +1,28 @@
 # Pocket Meal Application
 
 ## Project description:
-- The application is to create opportunity for grocery stores to reduce waste as more than half of all food produced in Canada is lost or wasted, report says, this also create hugh enviromental impacts.
+- The application is to create opportunity for grocery stores or individuals to reduce waste as more than half of all food produced in Canada is lost or wasted, report says, this also create huge enviromental impacts.
 
-- The app built connection between grocery stores and charity organization in Greater Toronto area. Food near or past its best-before date will be posted/donated by gorcey store on daily basis, certified charity organization will be able to search/select food from those stores on map, and then distribute to their community.
+- The app builds connection between grocery stores / individuals and charity organization in Greater Toronto Area. Food near or past its best-before date will be posted/donated by grocey stores / individuals on daily basis, certified charity organizations / individuals will be able to search/select food from those stores on map, and then distribute to their community.
 
 
 ### Target audience
-- Gorcery stores
-- Charity Organizations (food banks)
+- Grocery stores / Individuals Donors
+- Charity Organizations (food banks) / Individuals
 
 ### Users:
 
-#### As grocery owner, I follow regulation strictly to provide fresh food to my customers, but there are still a lot of perishable food wasted everyday. Once food hits its sell-by date, they became unsaleables, I will be able to use the app: 
+#### As grocery store owner, I follow regulation strictly to provide fresh food to my customers, but there are still a lot of perishable food wasted everyday. Once food hits its sell-by date, they became unavailable, I will be able to use the app: 
 - Login as grocery store owner / register if first time using the app
 - Post Food near or past its best-before date with prodcut photos, name, qty on daily basis
-- Once I got SMS and order from app, I will be able to contact with charity organization to arrange food delivery.
+- Once I get SMS and order from app, I will be able to contact with charity organization to arrange food delivery.
 ![](https://github.com/kashyap1808/MERN-PocketMeal/blob/master/donation.gif)
 
 #### As charity orgnization, I want to help my community and collect information from grocery store:
-- Login as charity organization/ register if first time using the app
-- check on map to see all stores posted food for donation around me
-- when I click one store, I will have the detailed list of donation food
-- I could select and add to my cart, then place order with no money traction though
+- Login or register as a charity organization or individual
+- Search map for all available donations in GTA
+- Click on the marker for a detailed view of donation posted
+- The user can select and edit quantity according to their preference and add the item to cart
 - The App will send SMS to grocer once order being placed
 ![](https://github.com/kashyap1808/MERN-PocketMeal/blob/master/charity.gif)
 
